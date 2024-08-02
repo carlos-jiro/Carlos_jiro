@@ -20,17 +20,17 @@ function About () {
                     <h1>About</h1>
                 </div>
                 <div className={s.infoTextCon}>
-                    <p>Hola! mi nombre es Carlos Jiménez y mi pasion es desarrollar <span>aplicaciones web</span>, 
-                       tanto del lado del back end como del front.
+                    <p>
+                        Hello! my name is Carlos Jimenez and my passion is to develop <span>web applications</span>,  
+                        both back end and front end.
                        <br/><br/>
-                       He tomado diversos cursos de 
-                       desarrollo web y me encanta llevar a la practica lo aprendido y  siempre voy 
-                       por mas. He trabajado en diversos proyectos personales, lo cual me ha permitido 
-                       obtener conocimientos en tecnologias como: <span>React js, Node js, JavaScript</span>, 
-                       Express entre otras, de igual forma me gusta diseñar en illustrator en mis 
-                       tiempos libres.
+                        For several years I have learned, through courses and research, the basics and concepts of 
+                        web development. I love to put into practice what I have learned, and I am always learning more. 
+                        I have worked on several personal projects, and I am currently a developer at TeamVenti (since 2023), 
+                        where I continue to develop my skills.
                        <br/><br/>
-                       Ah! y soy de México para el mundo!</p>
+                        And I am proudly Mexican!
+                    </p>
                 </div>
             </div>
 
@@ -48,10 +48,10 @@ function About () {
                             <div><span>► Redux</span></div>
                             <div><span>► Node JS</span></div>
                             <div><span>► Express</span></div>
-                            <div><span>► Sequelize</span></div>
                             <div><span>► CSS</span></div>
-                            <div><span>► HTML</span></div>
-                            <div><span>► PostgreSQl</span></div>
+                            <div><span>► C#</span></div>
+                            <div><span>► .NET</span></div>
+                            <div><span>► SQLServer</span></div>
                         </div>
                     </div>
                     <a href="./resume" target="_blank" rel="noopener noreferrer">

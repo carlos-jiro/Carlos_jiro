@@ -33,13 +33,13 @@ function Contact () {
                             </p>
                         </div>
                         <div className={s.cardRedes}>
-                            <a href="https://github.com/carlosjiro98" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/carlos-jiro" target="_blank" rel="noopener noreferrer">
                                 <img src={gitB} alt="github" />
                             </a>
                             <a href="https://www.linkedin.com/in/carlos-jimenez-84373823a/" target="_blank" rel="noopener noreferrer">
                                 <img src={inB} alt="linkedin" />
                             </a>
-                            <a href="https://www.instagram.com/cjr_off/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/carlos_jiro/" target="_blank" rel="noopener noreferrer">
                                 <img src={instaB} alt="instagram" />
                             </a>
                         </div>

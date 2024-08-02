@@ -3,7 +3,7 @@ import style from './Work.module.css'
 //img
 import one from '../../img/1.png'
 import two from '../../img/2.png'
-import three from '../../img/3.png'
+import three from '../../img/ww.png'
 
 import { useSelector } from 'react-redux';
 
@@ -56,11 +56,11 @@ function Work () {
 
                 <div className={s.card}>
                     <div className={s.infoCard}>
-                        <h1>CoockIt</h1>
+                        <h1>Wall Won</h1>
                         <div className={s.infoText}>
-                            <p>PokeApp es una aplicacion de consultas auna api tanto externa como una propia
-                                que conecta cons una base de datos, con lo que permite almacenar datos
-                                introducidos por el usuario
+                            <p>
+                                Wallpaper Wonderland is a small wallpaper store, with an API developed with 
+                                .net 8 and a front end developed with ReactJS.
                             </p>
                         </div>
                         <button>Ver Proyecto</button>
