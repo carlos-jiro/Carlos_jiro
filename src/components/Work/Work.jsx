@@ -6,6 +6,7 @@ import two from '../../img/2.png'
 import three from '../../img/ww.png'
 
 import { useSelector } from 'react-redux';
+import OpenPopUpBtn from '../PopUp/OpenPopUpBtn';
 
 function Work () {
     const showW = useSelector((state) => state.showW)
@@ -29,7 +30,7 @@ function Work () {
                                 introducidos por el usuario
                             </p>
                         </div>
-                        <button>Ver Proyecto</button>
+                        <OpenPopUpBtn btnTxt="See project" popView={<div><h1>P1</h1></div>} />
                     </div>
                     <div>
                         <img src={one} alt="one" />
@@ -46,7 +47,7 @@ function Work () {
                                 introducidos por el usuario
                             </p>
                         </div>
-                        <button>Ver Proyecto</button>
+                        <OpenPopUpBtn btnTxt="See project" popView={<div><h1>P2</h1></div>} />
                     </div>
                     <div>
                         <img src={two} alt="two" />
@@ -63,7 +64,7 @@ function Work () {
                                 .net 8 and a front end developed with ReactJS.
                             </p>
                         </div>
-                        <button>Ver Proyecto</button>
+                        <OpenPopUpBtn btnTxt="See project" popView={<div><h1>P3</h1></div>} />
                     </div>
                     <div>
                         <img src={three} alt="three" />
